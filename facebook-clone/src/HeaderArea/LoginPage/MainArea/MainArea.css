@@ -1,0 +1,251 @@
+.Main {
+  display: flex;
+  justify-content: space-between;
+}
+.Rside {
+  height: 47rem;
+  width: 21%;
+
+  right: 0px;
+  flex-wrap: wrap;
+}
+.Profile {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 550;
+}
+.Profile > img {
+  border-radius: 50%;
+  width: 10;
+}
+
+.Pro {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  font-weight: 550;
+  padding-left: 1rem;
+  padding: 0 15px;
+}
+.Pro > div {
+  margin: 8px;
+}
+.Pros {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 550;
+  padding-left: 1rem;
+  padding: 0 15px;
+  border-bottom: 0.1rem rgb(68, 62, 62) solid;
+}
+.Profiles {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 550;
+}
+.Profiles > img {
+  border-radius: 20%;
+  width: 10%;
+}
+.Pross {
+  display: flex;
+  align-items: center;
+  font-weight: 550;
+  font-size: 1rem;
+  padding: 0 15px;
+}
+.Lside {
+  height: 47rem;
+  width: 21%;
+
+  right: 0px;
+  flex-wrap: wrap;
+}
+.Contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Contacts {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-left: 1rem;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.chaticon {
+  display: flex;
+}
+.Profilee {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 550;
+}
+.Profilee > img {
+  border-radius: 50%;
+  width: 10%;
+}
+
+/*Main Area*/
+.MainArea {
+  display: grid;
+  width: 60%;
+  height: 30rem;
+  justify-content: center;
+}
+.addStory {
+  display: flex;
+  width: 135%;
+  margin: 18px 0;
+  color: white;
+  font-size: 1.2rem;
+  height: 12rem;
+  justify-content: flex-start;
+  padding-left: 5%;
+}
+.Story {
+  width: 120px;
+  margin: 0 9px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  background-color: black;
+}
+.massage {
+  display: grid;
+  height: 22rem;
+  width: 80%;
+  height: 17rem;
+}
+.Post {
+  margin-top: 10%;
+  display: flex;
+  width: 100%;
+  height: 5rem;
+  justify-content: flex-start;
+  background-color: white;
+  margin-left: 10%;
+}
+.Post > div {
+  margin-left: 2px;
+}
+.Post > img {
+  height: 45px;
+  border-radius: 50%;
+  width: 45px;
+  margin: 12px;
+}
+input[type="Mind"] {
+  width: 80%;
+  margin: 15px 0px;
+  height: 2.2rem;
+  display: inline;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  margin-left: 3%;
+  box-sizing: border-box;
+}
+.Call {
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  height: 5rem;
+  background-color: white;
+  margin-left: 10%;
+  width: 100%;
+}
+.ico {
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+.icone {
+  display: flex;
+  justify-content: center;
+  margin: 0 50px;
+  font-size: 1rem;
+  align-items: center;
+}
+.Room {
+  display: grid;
+  height: 8rem;
+  width: 80%;
+  background-color: white;
+  margin-left: 20%;
+  padding: 1rem;
+  margin-bottom: 4%;
+}
+.RoomLnk {
+  display: flex;
+  justify-content: space-between;
+}
+.Rooms {
+  display: flex;
+}
+.Create a {
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+.Images {
+  display: flex;
+  flex-direction: row;
+}
+.Images > div {
+  margin: 0 12px;
+}
+.Posted {
+  display: grid;
+  height: 15rem;
+  width: 100%;
+  align-items: flex-start;
+  background-color: white;
+  margin-top: 80px;
+}
+.Poster {
+  display: flex;
+  justify-content: space-between;
+}
+.Meer {
+  display: flex;
+  justify-content: space-between;
+  margin: 22px;
+  font-size: 1rem;
+  font-weight: 550;
+}
+.update {
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding-left: 18px;
+}
+.edit {
+  margin: 12px;
+}
+.quotation {
+  font-size: 1.3rem;
+  font-weight: 500;
+  word-wrap: break-word;
+  padding-left: 4%;
+}
+.Comment {
+  display: flex;
+  justify-content: space-around;
+  height: 5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Like {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
